@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476CFEAD2492151E003708F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CFEAC2492151E003708F1 /* AppDelegate.swift */; };
+		476CFEAF2492151E003708F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CFEAE2492151E003708F1 /* ViewController.swift */; };
+		476CFEB22492151E003708F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476CFEB02492151E003708F1 /* Main.storyboard */; };
+		476CFEB424921529003708F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476CFEB324921529003708F1 /* Assets.xcassets */; };
+		476CFEB724921529003708F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476CFEB524921529003708F1 /* LaunchScreen.storyboard */; };
+		476CFEC224921529003708F1 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CFEC124921529003708F1 /* ______Tests.swift */; };
+		476CFECD24921529003708F1 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CFECC24921529003708F1 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476CFEBE24921529003708F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476CFEA12492151E003708F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476CFEA82492151E003708F1;
+			remoteInfo = "佩佩豬猜數字";
+		};
+		476CFEC924921529003708F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476CFEA12492151E003708F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476CFEA82492151E003708F1;
+			remoteInfo = "佩佩豬猜數字";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476CFEA92492151E003708F1 /* 佩佩豬猜數字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "佩佩豬猜數字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476CFEAC2492151E003708F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		476CFEAE2492151E003708F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		476CFEB12492151E003708F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476CFEB324921529003708F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476CFEB624921529003708F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		476CFEB824921529003708F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476CFEBD24921529003708F1 /* 佩佩豬猜數字Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "佩佩豬猜數字Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476CFEC124921529003708F1 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		476CFEC324921529003708F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476CFEC824921529003708F1 /* 佩佩豬猜數字UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "佩佩豬猜數字UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476CFECC24921529003708F1 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		476CFECE24921529003708F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476CFEA62492151E003708F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476CFEBA24921529003708F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476CFEC524921529003708F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476CFEA02492151E003708F1 = {
+			isa = PBXGroup;
+			children = (
+				476CFEAB2492151E003708F1 /* 佩佩豬猜數字 */,
+				476CFEC024921529003708F1 /* 佩佩豬猜數字Tests */,
+				476CFECB24921529003708F1 /* 佩佩豬猜數字UITests */,
+				476CFEAA2492151E003708F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476CFEAA2492151E003708F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476CFEA92492151E003708F1 /* 佩佩豬猜數字.app */,
+				476CFEBD24921529003708F1 /* 佩佩豬猜數字Tests.xctest */,
+				476CFEC824921529003708F1 /* 佩佩豬猜數字UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476CFEAB2492151E003708F1 /* 佩佩豬猜數字 */ = {
+			isa = PBXGroup;
+			children = (
+				476CFEAC2492151E003708F1 /* AppDelegate.swift */,
+				476CFEAE2492151E003708F1 /* ViewController.swift */,
+				476CFEB02492151E003708F1 /* Main.storyboard */,
+				476CFEB324921529003708F1 /* Assets.xcassets */,
+				476CFEB524921529003708F1 /* LaunchScreen.storyboard */,
+				476CFEB824921529003708F1 /* Info.plist */,
+			);
+			path = "佩佩豬猜數字";
+			sourceTree = "<group>";
+		};
+		476CFEC024921529003708F1 /* 佩佩豬猜數字Tests */ = {
+			isa = PBXGroup;
+			children = (
+				476CFEC124921529003708F1 /* ______Tests.swift */,
+				476CFEC324921529003708F1 /* Info.plist */,
+			);
+			path = "佩佩豬猜數字Tests";
+			sourceTree = "<group>";
+		};
+		476CFECB24921529003708F1 /* 佩佩豬猜數字UITests */ = {
+			isa = PBXGroup;
+			children = (
+				476CFECC24921529003708F1 /* ______UITests.swift */,
+				476CFECE24921529003708F1 /* Info.plist */,
+			);
+			path = "佩佩豬猜數字UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476CFEA82492151E003708F1 /* 佩佩豬猜數字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476CFED124921529003708F1 /* Build configuration list for PBXNativeTarget "佩佩豬猜數字" */;
+			buildPhases = (
+				476CFEA52492151E003708F1 /* Sources */,
+				476CFEA62492151E003708F1 /* Frameworks */,
+				476CFEA72492151E003708F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "佩佩豬猜數字";
+			productName = "佩佩豬猜數字";
+			productReference = 476CFEA92492151E003708F1 /* 佩佩豬猜數字.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476CFEBC24921529003708F1 /* 佩佩豬猜數字Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476CFED424921529003708F1 /* Build configuration list for PBXNativeTarget "佩佩豬猜數字Tests" */;
+			buildPhases = (
+				476CFEB924921529003708F1 /* Sources */,
+				476CFEBA24921529003708F1 /* Frameworks */,
+				476CFEBB24921529003708F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476CFEBF24921529003708F1 /* PBXTargetDependency */,
+			);
+			name = "佩佩豬猜數字Tests";
+			productName = "佩佩豬猜數字Tests";
+			productReference = 476CFEBD24921529003708F1 /* 佩佩豬猜數字Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		476CFEC724921529003708F1 /* 佩佩豬猜數字UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476CFED724921529003708F1 /* Build configuration list for PBXNativeTarget "佩佩豬猜數字UITests" */;
+			buildPhases = (
+				476CFEC424921529003708F1 /* Sources */,
+				476CFEC524921529003708F1 /* Frameworks */,
+				476CFEC624921529003708F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476CFECA24921529003708F1 /* PBXTargetDependency */,
+			);
+			name = "佩佩豬猜數字UITests";
+			productName = "佩佩豬猜數字UITests";
+			productReference = 476CFEC824921529003708F1 /* 佩佩豬猜數字UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476CFEA12492151E003708F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "黃郁方";
+				TargetAttributes = {
+					476CFEA82492151E003708F1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					476CFEBC24921529003708F1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 476CFEA82492151E003708F1;
+					};
+					476CFEC724921529003708F1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 476CFEA82492151E003708F1;
+					};
+				};
+			};
+			buildConfigurationList = 476CFEA42492151E003708F1 /* Build configuration list for PBXProject "佩佩豬猜數字" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476CFEA02492151E003708F1;
+			productRefGroup = 476CFEAA2492151E003708F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476CFEA82492151E003708F1 /* 佩佩豬猜數字 */,
+				476CFEBC24921529003708F1 /* 佩佩豬猜數字Tests */,
+				476CFEC724921529003708F1 /* 佩佩豬猜數字UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476CFEA72492151E003708F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476CFEB724921529003708F1 /* LaunchScreen.storyboard in Resources */,
+				476CFEB424921529003708F1 /* Assets.xcassets in Resources */,
+				476CFEB22492151E003708F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476CFEBB24921529003708F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476CFEC624921529003708F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476CFEA52492151E003708F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476CFEAF2492151E003708F1 /* ViewController.swift in Sources */,
+				476CFEAD2492151E003708F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476CFEB924921529003708F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476CFEC224921529003708F1 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476CFEC424921529003708F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476CFECD24921529003708F1 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476CFEBF24921529003708F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476CFEA82492151E003708F1 /* 佩佩豬猜數字 */;
+			targetProxy = 476CFEBE24921529003708F1 /* PBXContainerItemProxy */;
+		};
+		476CFECA24921529003708F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476CFEA82492151E003708F1 /* 佩佩豬猜數字 */;
+			targetProxy = 476CFEC924921529003708F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		476CFEB02492151E003708F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476CFEB12492151E003708F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		476CFEB524921529003708F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476CFEB624921529003708F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		476CFECF24921529003708F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		476CFED024921529003708F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476CFED224921529003708F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "佩佩豬猜數字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sss.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476CFED324921529003708F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "佩佩豬猜數字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sss.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		476CFED524921529003708F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "佩佩豬猜數字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sss.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/佩佩豬猜數字.app/佩佩豬猜數字";
+			};
+			name = Debug;
+		};
+		476CFED624921529003708F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "佩佩豬猜數字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sss.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/佩佩豬猜數字.app/佩佩豬猜數字";
+			};
+			name = Release;
+		};
+		476CFED824921529003708F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "佩佩豬猜數字UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sss.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "佩佩豬猜數字";
+			};
+			name = Debug;
+		};
+		476CFED924921529003708F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "佩佩豬猜數字UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sss.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "佩佩豬猜數字";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476CFEA42492151E003708F1 /* Build configuration list for PBXProject "佩佩豬猜數字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476CFECF24921529003708F1 /* Debug */,
+				476CFED024921529003708F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476CFED124921529003708F1 /* Build configuration list for PBXNativeTarget "佩佩豬猜數字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476CFED224921529003708F1 /* Debug */,
+				476CFED324921529003708F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476CFED424921529003708F1 /* Build configuration list for PBXNativeTarget "佩佩豬猜數字Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476CFED524921529003708F1 /* Debug */,
+				476CFED624921529003708F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476CFED724921529003708F1 /* Build configuration list for PBXNativeTarget "佩佩豬猜數字UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476CFED824921529003708F1 /* Debug */,
+				476CFED924921529003708F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476CFEA12492151E003708F1 /* Project object */;
+}
